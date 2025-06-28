@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Travel</title>
+    <style type="text/css">
+        *{
+            padding: 0; margin: 0; box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif; /* Modern font */
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url("travelbg.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        nav{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .logo{
+            font-size: 1.8em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            font-size: 1em;
+            transition: 0.3s ease;
+        }
+        .menu a:hover{
+            color: #ADD8E6; /* Light Blue */
+        }
+        .register a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1em;
+            background: #4682B4; /* Steel Blue */
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+        .register a:hover{
+            background: #5F9EA0; /* Cadet Blue */
+        }
+        .h-txt{
+            max-width: 800px;
+            padding: 20px;
+        }
+        .h-txt span{
+            font-size: 1.2em;
+            letter-spacing: 2px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .h-txt h1{
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        .h-txt a{
+            text-decoration: none;
+            background: #4682B4; /* Steel Blue */
+            color: white;
+            padding: 12px 25px;
+            letter-spacing: 1px; 
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+        .h-txt a:hover{
+            background: #5F9EA0; /* Cadet Blue */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Voyage
+            </div>
+            <div class="menu">
+                <a href="#">Destinations</a>
+                <a href="#">Tours</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="register">
+                <a href="#">Book Now</a>
+            </div>
+        </nav>
+        <section class="h-txt">
+            <span>Explore the World</span>
+            <h1>Unforgettable Journeys Start Here</h1>
+            <a href="#">Discover More</a>
+        </section>
+    </header>
+</body>
+</html>
